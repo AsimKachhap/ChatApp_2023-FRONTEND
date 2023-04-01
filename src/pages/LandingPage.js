@@ -1,10 +1,18 @@
 import React from "react";
-import LoginPage from "./LoginPage";
+import { Link } from "react-router-dom";
 
 const LandingPage = () => {
   return (
-    <div>
-      <LoginPage />
+    <div className="flex flex-col gap-4">
+      <Link to="/login" className="cursor-pointer">
+        Login
+      </Link>
+      <Link to="/register" className="cursor-pointer">
+        Register
+      </Link>
+      <Link to="/chats" className="cursor-pointer">
+        Chats
+      </Link>
     </div>
   );
 };
