@@ -18,15 +18,7 @@ const LoginPage = () => {
       <div className="   flex flex-row justify-center  h-[500px] w-[900px]">
         <div className="flex-1 bg-white ">
           <form className="py-4 px-8">
-            <h1 className="text-3xl text-black font-bold  ">
-              hey, Hello <br /> Welcome back
-            </h1>
-            <p className="text-neutral-500 text-[20px]">
-              Login in to use the World's{" "}
-              <span className=" text-emerald-500 font-semibold ">best </span>
-              chatApp.
-            </p>
-
+            <h1 className="text-2xl font-semibold">Welcome back</h1>
             <div className="mt-6">
               <div className="pb-4">
                 <label className="block pb-2 text-sm" htmlFor="email">
@@ -64,7 +56,20 @@ const LoginPage = () => {
             </div>
           </form>
         </div>
-        <div className="flex-1 bg-rose-500 opacity-80  ">Hello</div>
+        <div className="flex-1 bg-rose-300 opacity-100 text-center p-8 ">
+          <p className="text-3xl text-gray-700 font-bold">
+            Continue using <br />
+            <span className="text-4xl font-extrabold text-emerald-500 ">
+              chat
+            </span>
+            <span className="text-4xl font-thin text-teal-500 tracking-wider">
+              book
+            </span>
+          </p>
+          <p className="mt-24 text-2xl">
+            Login to keep using the world's best chat app
+          </p>
+        </div>
       </div>
     </div>
   );
